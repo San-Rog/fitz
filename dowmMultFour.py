@@ -25,3 +25,5 @@ if uploaded_files:
             )
         except Exception as e:
             st.error(f"Erro ao compactar os arquivos: {e}")
+text_calendar = calendar.TextCalendar()
+text_calendar.pryear(2024)
