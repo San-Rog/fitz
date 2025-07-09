@@ -26,5 +26,5 @@ if uploaded_files:
         except Exception as e:
             st.error(f"Erro ao compactar os arquivos: {e}")
 st.write(list(calendar.month_name))
-st.write(calendar.month(2025, 7))
+st.write(calendar.calendar(2018))
 
