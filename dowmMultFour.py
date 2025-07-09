@@ -27,4 +27,5 @@ if uploaded_files:
             st.error(f"Erro ao compactar os arquivos: {e}")
 st.write(list(calendar.month_name))
 st.write(calendar.calendar(2018))
+st.wrtie(calendar.prcal(2025))
 
