@@ -10,7 +10,7 @@ def gerar_calendario_intervalo(data_inicio, data_fim):
         ano = data_atual.year
         mes = data_atual.month
         strMonthYear = f'{calendar.month_name[mes]} de {ano}: {calendar.monthrange(ano, mes)[1]} dias'
-       st.write(strMonthYear)
+        st.write(strMonthYear)
         # Avança para o próximo mês
         if mes == 12:
             ano += 1
